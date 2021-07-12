@@ -1,0 +1,35 @@
+{
+    "ParkList":[{
+        "id":1,
+        "localita":"Pescheria di Carta",
+        "nomepark":"Cartaland",
+        "tema":"Avventura",
+        "tip_attrazioni":"Per Bambini",
+        "disponibilita":false
+    },
+    {
+        "id":2,
+        "localita":"Simone",
+        "nomepark":"Cartaland",
+        "tema":"Avventura",
+        "tip_attrazioni":"Estreme",
+        "disponibilita":true
+    },{
+        "id":3,
+        "localita":"Cotenna",
+        "nomepark":"Mirabollandia",
+        "tema":"Aquatico",
+        "tip_attrazioni":"Per Bambini,Moderate",
+        "disponibilita":true
+    },{
+        "id":4,
+        "localita":"Tonino",
+        "nomepark":"Fuori di Testa",
+        "tema":"Alpino",
+        "tip_attrazioni":"Estreme",
+        "disponibilita":false
+    }
+
+
+]
+}

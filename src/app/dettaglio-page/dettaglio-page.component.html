@@ -1,0 +1,33 @@
+<div *ngIf="parkID" class="container-fluid">
+    <div class="col ">
+        <div  class="row justify-content-center box-item"> 
+            <div class="col-md-4">
+            <h3>Localita: {{parkID.localita}}</h3>
+            <h3>Nome: {{parkID.nomepark}}</h3>
+            <h3>Tema {{parkID.tema}}</h3>
+            <p class="txt_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                 when an unknown printer took a galley of type and scrambled it to make a type 
+                 specimen
+                  book. It has survived not only five centuries, but also the leap into electronic</p>
+        </div>
+           
+                <div class="col-md-5">
+                    <img style="width: 500px; height: 500px;" src="../../assets/img/ADVENTURE-BAY_small_7ddeb17b-5056-a36a-06f5c59e672448fb.jpg" alt="Mappa Dell parco">
+
+                </div>
+            
+        </div>
+    </div>
+    
+    <div class="row justify-content-center">
+        
+        <div class="col-md-11 container_border">
+            <h4>Google Map Localita</h4>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.195219607284!2d12.67985737996973!3d45.95115973152332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4779635bb0f58dbf%3A0xe10c09c4f642a4e0!2sVia%20Prasecco%2C%203A%2C%20179682%20Pordenone%20PN!5e0!3m2!1sit!2sit!4v1590141387768!5m2!1sit!2sit"
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+      </div>
+</div>

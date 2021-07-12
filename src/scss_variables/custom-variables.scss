@@ -1,0 +1,126 @@
+$theme-colors: (
+    "red50":#FFC0AC,
+    "red100":#FFB097,
+    "red150":#FFA083,
+    "red200":#FF916E,
+    "red300":#FF7246,
+    "red400":#FF531D,
+    "red500":#F33A00,
+    "red600":#C52F00,
+    "red700":#972400,
+    "red800":#691900,
+    "red850":#521400,
+
+    "pink850":#5D0926,
+    "pink800":#720B2E,
+    "pink750":#870D37,
+    "pink700":#9C0F3F,
+    "pink600":#C61350,
+    "pink500":#E91E63,
+    "pink400":#ED437D,
+    "pink300":#F06897,
+    "pink200":#F48DB0,
+    "pink150":#F6A0BD,
+    "pink100":#F8B3CA,
+    "pink50":#F9C5D7,
+
+    "purple850":#1F133D,
+    "purple800":#28194E,
+    "purple750":#311E60,
+    "purple700":#3A2471,
+    "purple600":#4B2F94,
+    "purple500":#5D3AB7,
+    "purple400":#7352C8,
+    "purple300":#8C71D2,
+    "purple200":#A590DC,
+    "purple150":#B19FE1,
+    "purple100":#BEAFE6,
+    "purple50":#CBBEEA,
+
+    "indigo850":#111933,
+    "indigo800":#172144,
+    "indigo750":#1C2955,
+    "indigo700":#223266,
+    "indigo600":#2E4289,
+    "indigo500":#3953AB,
+    "indigo400":#4A66C3,
+    "indigo300":#6980CD,
+    "indigo200":#8799D7,
+    "indigo150":#97A6DC,
+    "indigo100":#A6B3E1,
+    "indigo50":#B5C0E6,
+
+
+
+
+    "primary900": #c80000,
+    "primary800": #d5000b,
+    "primary700": #e20613,
+    "primary600": #f41d1a,
+    "primary500": #ff2d17,
+    "primary400": #fe443c,
+    "primary300": #f46a65,
+    "primary200": #fb9591,
+    "primary100": #ffcace,
+    "primary50": #ffeaed,
+
+    "success900": #0e6410,
+    "success800": #298324,
+    "success700": #35942f,
+    "success600": #41a63a,
+    "success500": #4bb543,
+    "success400": #66c060,
+    "success300": #82cc7d,
+    "success200": #a6d9a3,
+    "success100": #c9e8c7,
+    "success50": #e8f6e8,
+
+    "grey900": #1f1f1f,
+    "grey800": #404040,
+    "grey700": #5f5f5f,
+    "grey600": #727272,
+    "grey500": #9b9b9b,
+    "grey400": #bbbbbb,
+    "grey300": #dedede,
+    "grey200": #ececec,
+    "grey100": #f4f4f4,
+    "grey50": #fafafa,
+
+    "link": #0645ad
+  );
+
+h1{
+  font-family: 'roboto-regular';
+  font-size: 40px;
+  line-height: 52px;
+}
+  
+h2{
+  font-family: 'roboto-regular';
+  font-size: 32px;
+  line-height: 36px;
+}
+
+h3{
+  font-family: 'roboto-regular';
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h4{
+  font-family: 'roboto-regular';
+  font-size: 20px;
+  line-height: 24px;
+}
+
+body,p{
+  font-family: 'roboto-regular';
+  font-size: 16px;
+  line-height: 20px;
+}
+
+label {
+  font-family: 'roboto-regular';
+  font-size: 16px;
+  line-height: 20px;
+}
