@@ -5,7 +5,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { PageListComponent } from './page-list/page-list.component';
 
 const routes: Routes = [
-  { path: '', component: HomePageComponent},
+  { path: '', component: HomePageComponent, pathMatch: 'full',},
   { path: 'dettaglio/:id', component:DettaglioPageComponent },
   { path: 'offerts', component:PageListComponent}
 ];

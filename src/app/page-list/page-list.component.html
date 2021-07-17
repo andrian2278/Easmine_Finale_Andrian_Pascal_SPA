@@ -1,0 +1,32 @@
+
+<div class="container-fluid">
+<div *ngFor="let s of park" class="card mb-3 card-box" >
+    <button type="button" class="btn btn-light" value="s.id" routerLink="/dettaglio/{{s.id}}">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <div *ngIf="s.disponibilita;else NonDisponibili" >
+          <i class="bi bi-circle-fill "></i>
+           </div>
+           <ng-template #NonDisponibili ></ng-template>
+        <img  src="../../assets/img/Trave-orizzontale-parco-divertimenti-civenna-scaled.jpg" class="img-fluid rounded-start" alt="...">
+       
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h2 class="card-title">{{s.nomepark}}</h2>
+         
+            <div class="row">
+                <div class="col-md-5"><h5>Tema:  {{s.tema}}</h5> </div>
+            <div class="col-md-5"><h5>Tipo di attrazioni: {{s.tip_attrazioni}} </h5> </div>
+            <div class="col-md-5"><h5>Localita: {{s.localita}} </h5> </div>
+            <div class="col-md-5"><h5>Persone: <i style="color: green;width: 60px;height: 60px;" class="bi bi-speedometer2"></i> </h5> </div>
+        </div>
+      
+        
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+</button>
+  </div>
+</div> 

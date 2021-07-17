@@ -5,7 +5,9 @@
         "nomepark":"Cartaland",
         "tema":"Avventura",
         "tip_attrazioni":"Per Bambini",
-        "disponibilita":false
+        "disponibilita":true,
+        "time_open":"12:21",
+        "time_close":"13:21"
     },
     {
         "id":2,
@@ -13,21 +15,28 @@
         "nomepark":"Cartaland",
         "tema":"Avventura",
         "tip_attrazioni":"Estreme",
-        "disponibilita":true
+        "disponibilita":true,
+        "time_open":"12:21",
+        "time_close":"13:21"
     },{
         "id":3,
         "localita":"Cotenna",
         "nomepark":"Mirabollandia",
         "tema":"Aquatico",
         "tip_attrazioni":"Per Bambini,Moderate",
-        "disponibilita":true
+        
+        "disponibilita":true,
+        "time_open":"18:51",
+        "time_close":"19:21"
     },{
         "id":4,
         "localita":"Tonino",
         "nomepark":"Fuori di Testa",
         "tema":"Alpino",
         "tip_attrazioni":"Estreme",
-        "disponibilita":false
+        "disponibilita":true,
+        "time_open":"12:21",
+        "time_close":"13:21"
     }
 
 
