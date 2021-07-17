@@ -1,6 +1,54 @@
 # SimulazioneFinale
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
+## For stat
+### Step 1
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### Download Project
+ Method 1
+ Downland Zip
+ Method 2
+ Clone HTTPS git clone https://github.com/andrian2278/SimulazioneFinale.git
+ Method 3
+ Clone SSH git clone git@github.com:andrian2278/SimulazioneFinale.git
+ Method 4
+ Clone GitHub CLI git clone git@github.com:andrian2278/SimulazioneFinale.git
+ 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Step 2
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### Open Project
+Method 1 
+CMD/Powershell c:/pathwhereisproject/SimulazioneFinale
+#### Instal componet 
+CMD/Powershell performs comands: 
+npm install
+npm i json-server
+
+
+#### For start live project 
+CMD/powershell ng serve
+##### New CMD/PowerShell 
+json-server --watch data.json
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Method 2
+Visual Studio Code - Open project
+#### Instal componet 
+Open terminal performs comands: 
+npm install
+npm i json-server
+#### For start live project
+Terminal ng serve
+#### New Terminal 
+json-server --watch data.json
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Live server project Angular
+http://localhost:4200/
+### Live server json file
+http://localhost:3000
 
 ## Development server
 
@@ -26,11 +74,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## Per start Angular
-## step 1 Con terminale serve di entrare in cartela con progetto
-## step 2 Esegue questo comand 
-npm install 
-## step 3 
-json-server --watch Parco.json
-## step 4 
-ng serve 
+
