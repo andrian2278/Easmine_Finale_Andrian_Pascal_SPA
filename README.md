@@ -5,24 +5,25 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Step 1
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### Download Project
- Method 1
+ ##### Method 1
  Downland Zip
- Method 2
+##### Method 2
  Clone HTTPS git clone https://github.com/andrian2278/SimulazioneFinale.git
- Method 3
+##### Method 3
  Clone SSH git clone git@github.com:andrian2278/SimulazioneFinale.git
- Method 4
+##### Method 4
  Clone GitHub CLI git clone git@github.com:andrian2278/SimulazioneFinale.git
  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Step 2
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### Open Project
-Method 1 
+##### Method 1 
 CMD/Powershell c:/pathwhereisproject/SimulazioneFinale
 #### Instal componet 
-CMD/Powershell performs comands: 
+##### CMD/Powershell performs comands: 
 npm install
+----
 npm i json-server
 
 
@@ -32,13 +33,15 @@ CMD/powershell ng serve
 json-server --watch data.json
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Method 2
+##### Method 2
 Visual Studio Code - Open project
-#### Instal componet 
+##### Instal componet 
 Open terminal performs comands: 
+----
 npm install
+----
 npm i json-server
-#### For start live project
+##### For start live project
 Terminal ng serve
 #### New Terminal 
 json-server --watch data.json
