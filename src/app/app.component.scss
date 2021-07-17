@@ -1,5 +1,111 @@
-.logo-navbar{
-    width:70px;
-     height:70 px; 
-     margin-right: 20px;
+nav{
+  .navbar-container{
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  
+
+  a{
+      text-transform: uppercase;
+  }
+  .logo-navbar{
+      width: 120px;
+     
+  }
+}
+
+footer{
+  .container-div-footer{
+
+      margin-top: 2rem;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      padding: 20px 30px;
+      background-color: var(--bs-grey800);
+      color: var(--bs-grey50);
+      .columns-div{
+          display: flex;
+          flex-direction: column;
+          max-width: 25%;
+          margin: 10px;
+
+          .i-contatti-social{
+              font-size: 1.5rem;
+              margin: 2%;
+          }
+
+          ul{
+              list-style-type: none;
+              padding-left: 0;
+              li{
+                  a{
+                      color: var(--bs-grey50); 
+                      &:hover{
+                          color: var(--bs-grey900);
+                      }
+                  }
+                      
+                  
+                  text-align: left;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis
+              }
+          }
+      }
+  }
+}
+@media screen and (max-width: 1152px) {
+
+
+
+  nav{
+      display: flex;
+      flex-direction: row-reverse;
+      .burgermenu-row-reverse{
+          display: flex;
+          flex-direction: row-reverse;
+      }
+      .logo-navbar{
+          width: 8rem;
+          margin: 0.5rem;
+      }
+  }    
+}
+
+@media screen and (max-width: 780px) {
+
+
+  footer{
+      .container-div-footer{
+  
+          margin-top: 2rem;
+  
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+         
+          .columns-div{
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              max-width: 100%;
+              margin: 10px;
+              
+              p{
+                  width: 100%;
+              }
+
+              .i-contatti-social{
+                  font-size: 1.5rem;
+                  margin: 2%;
+              }
+  
+              
+          }
+      }
+  }
 }

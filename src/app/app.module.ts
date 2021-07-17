@@ -7,6 +7,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { PageListComponent } from './page-list/page-list.component';
 import { DettaglioPageComponent } from './dettaglio-page/dettaglio-page.component';
 import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
