@@ -21,17 +21,17 @@ https://git-scm.com/
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### Open Project
 ##### Method 1 
-CMD/Powershell c:/pathwhereisproject/SimulazioneFinale
+CMD/Powershell/Github Cli c:/pathwhereisproject/SimulazioneFinale
 #### Instal componet 
-##### CMD/Powershell performs comands: 
+##### CMD/Powershell/GitHub Cli performs comands:
 npm install
-----
+-
 npm i json-server
 
 
 #### For start live project 
-CMD/powershell ng serve
-##### New CMD/PowerShell 
+CMD/powershell/Github Cli ng serve
+##### New CMD/PowerShell/Github Cli 
 json-server --watch data.json
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
