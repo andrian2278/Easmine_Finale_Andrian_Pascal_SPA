@@ -4,47 +4,46 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## For stat
 ### Step 1
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### Download Project
+#### CLONE Project
+### For use Command Git need install program. If you have this program Open Cmd/Powershell/GitHub Cli and use commands HTTPS/SSH/GITHUB CLI
+https://git-scm.com/
  ##### Method 1
  Downland Zip
 ##### Method 2
- Clone HTTPS git clone https://github.com/andrian2278/SimulazioneFinale.git
+ Clone HTTPS: git clone https://github.com/andrian2278/SimulazioneFinale.git
 ##### Method 3
- Clone SSH git clone git@github.com:andrian2278/SimulazioneFinale.git
+ Clone SSH: git clone git@github.com:andrian2278/SimulazioneFinale.git
 ##### Method 4
- Clone GitHub CLI git clone git@github.com:andrian2278/SimulazioneFinale.git
+ Clone GitHub CLI: git clone git@github.com:andrian2278/SimulazioneFinale.git
  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Step 2
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### Open Project
 ##### Method 1 
-CMD/Powershell c:/pathwhereisproject/SimulazioneFinale
+CMD/Powershell/Github Cli c:/pathwhereisproject/SimulazioneFinale
 #### Instal componet 
-##### CMD/Powershell performs comands: 
-npm install
-----
-npm i json-server
+##### CMD/Powershell/GitHub Cli performs comands:
+- npm install
+- npm i json-server
 
 
 #### For start live project 
-CMD/powershell ng serve
-##### New CMD/PowerShell 
-json-server --watch data.json
+CMD/powershell/Github Cli ng serve
+##### New CMD/PowerShell/Github Cli 
+- json-server --watch data.json
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ##### Method 2
 Visual Studio Code - Open project
 ##### Instal componet 
 Open terminal performs comands: 
-----
-npm install
-----
-npm i json-server
+- npm install
+- npm i json-server
 ##### For start live project
-Terminal ng serve
+Terminal: ng serve
 #### New Terminal 
-json-server --watch data.json
+Terminal: json-server --watch data.json
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -52,6 +51,11 @@ json-server --watch data.json
 http://localhost:4200/
 ### Live server json file
 http://localhost:3000
+
+
+
+
+
 
 ## Development server
 
