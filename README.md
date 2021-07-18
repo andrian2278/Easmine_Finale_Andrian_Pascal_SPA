@@ -4,15 +4,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## For stat
 ### Step 1
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### Download Project
+#### CLONE Project
+### For use Command Git need install program. If you have this program Open Cmd/Powershell/GitHub Cli and use commands HTTPS/SSH/GITHUB CLI
+https://git-scm.com/
  ##### Method 1
  Downland Zip
 ##### Method 2
- Clone HTTPS git clone https://github.com/andrian2278/SimulazioneFinale.git
+ Clone HTTPS: git clone https://github.com/andrian2278/SimulazioneFinale.git
 ##### Method 3
- Clone SSH git clone git@github.com:andrian2278/SimulazioneFinale.git
+ Clone SSH: git clone git@github.com:andrian2278/SimulazioneFinale.git
 ##### Method 4
- Clone GitHub CLI git clone git@github.com:andrian2278/SimulazioneFinale.git
+ Clone GitHub CLI: git clone git@github.com:andrian2278/SimulazioneFinale.git
  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Step 2
