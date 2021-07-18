@@ -24,29 +24,26 @@ https://git-scm.com/
 CMD/Powershell/Github Cli c:/pathwhereisproject/SimulazioneFinale
 #### Instal componet 
 ##### CMD/Powershell/GitHub Cli performs comands:
-npm install
--
-npm i json-server
+- npm install
+- npm i json-server
 
 
 #### For start live project 
 CMD/powershell/Github Cli ng serve
 ##### New CMD/PowerShell/Github Cli 
-json-server --watch data.json
+- json-server --watch data.json
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ##### Method 2
 Visual Studio Code - Open project
 ##### Instal componet 
 Open terminal performs comands: 
-----
-npm install
-----
-npm i json-server
+- npm install
+- npm i json-server
 ##### For start live project
-Terminal ng serve
+Terminal: ng serve
 #### New Terminal 
-json-server --watch data.json
+Terminal: json-server --watch data.json
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -54,6 +51,11 @@ json-server --watch data.json
 http://localhost:4200/
 ### Live server json file
 http://localhost:3000
+
+
+
+
+
 
 ## Development server
 
