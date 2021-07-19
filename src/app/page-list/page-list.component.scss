@@ -1,10 +1,20 @@
 .card-img-top{
     width: auto;
     height: auto;
+    position: relative;
+}
+.alert{
+    color:red;
+    font-size: 30px;
+    font-style:inherit;
+    
 }
 .card-box{
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 30px;
     background-color: var(--bs-s-red300);
+}
+.txt_h5{
+    margin-top: 20px;
 }

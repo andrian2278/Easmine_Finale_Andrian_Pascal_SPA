@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router,ActivatedRoute } from '@angular/router';
 import { ApiRestService } from '../api-rest.service';
-import { ParkList } from '../models/Parkitems';
+import { OFFERTS_TURING } from '../models/DATA_Api';
 
 @Component({
   selector: 'app-dettaglio-page',
@@ -10,7 +10,7 @@ import { ParkList } from '../models/Parkitems';
 })
 export class DettaglioPageComponent implements OnInit {
  
-  parkID: ParkList=new ParkList();
+  OfertsID: OFFERTS_TURING=new OFFERTS_TURING();
   constructor(private route:ActivatedRoute, private _Db: ApiRestService) { }
   id:any
   ngOnInit(): void {
@@ -18,7 +18,7 @@ export class DettaglioPageComponent implements OnInit {
       const id = param.get('id');
       this.id =id
       this._Db.getParkID(parseInt(this.id)).subscribe(data => {
-        this.parkID = data;
+        this.OfertsID = data;
         
       });
      
