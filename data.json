@@ -1,6 +1,5 @@
 {
-  "OFFERTS_TURING": [
-    {
+  "OFFERTS_TURING": [{
       "id": 1,
       "location": "Roma",
       "img_url": "https://lh3.googleusercontent.com/proxy/LXU0V7vbdtLy6fspPBLhPwqZTvIRR2u2WO_Z7B_3Jgt5PP-mRtVYhc3kbMVJ2AjsDlDOj0pnPUUNVADoPkbEN2FLyGhZFpSAu8rtIya4W4Qcfg",
@@ -12,8 +11,7 @@
       "people_entered": "Media",
       "people_out": "Minimo",
       "average_stay": "Medie",
-      "issues": 0,
-      "price": 12
+      "issues": 0
     },
     {
       "id": 2,

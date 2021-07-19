@@ -6,11 +6,11 @@ import { OFFERTS_TURING } from './models/DATA_Api';
 })
 export class ApiRestService {
 
-  constructor(private http:HttpClient) { }
-  getPark(){
+  constructor(private http: HttpClient) { }
+  getPark() {
     return this.http.get<OFFERTS_TURING[]>("http://localhost:3000/OFFERTS_TURING")
   }
-  getParkID(id:number){
-    return this.http.get<OFFERTS_TURING>("http://localhost:3000/OFFERTS_TURING/"+id)
+  getParkID(id: number) {
+    return this.http.get<OFFERTS_TURING>("http://localhost:3000/OFFERTS_TURING/" + id)
   }
 }

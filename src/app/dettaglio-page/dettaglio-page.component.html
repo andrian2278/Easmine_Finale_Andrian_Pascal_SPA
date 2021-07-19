@@ -1,55 +1,64 @@
 <div *ngIf="OfertsID" class="container-fluid">
-    <div  class="row justify-content-center box-item">
-        <div class="col-md-3"><h1>{{OfertsID.location}}</h1> 
-        </div>
+  <div class="row justify-content-center box-item">
+    <div class="col-md-3">
+      <h1>{{OfertsID.location}}</h1>
     </div>
-    <div class="col ">
-        <div  class="row justify-content-center box-item">
-            
-            <div class="col-md-4">
-            
-            <h3>Attrazione: {{OfertsID.attraction}}</h3>
-            <h3>Evente {{OfertsID.interest_type}}</h3>
-            <p class="txt_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                 when an unknown printer took a galley of type and scrambled it to make a type 
-                 specimen
-                  book. It has survived not only five centuries, but also the leap into electronic</p>
+  </div>
+  <div class="col ">
+    <div class="row justify-content-center box-item">
 
-            
-                
-        </div>
-           
-                <div class="col-md-5">
-                    <img style=" height: 500px;" src="{{OfertsID.img_url}}" alt="Mappa Dell parco">
+      <div class="col-md-4">
 
-                </div>
-            
-        </div>
+        <h3>Attrazione: {{OfertsID.attraction}}</h3>
+        <h3>Evente {{OfertsID.interest_type}}</h3>
+        <p class="txt_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type
+          specimen
+          book. It has survived not only five centuries, but also the leap into electronic</p>
+
+
+
+      </div>
+
+      <div class="col-md-5">
+        <img style=" height: 500px;" src="{{OfertsID.img_url}}" alt="Mappa Dell parco">
+
+      </div>
+
     </div>
-    <div class="col ">
+  </div>
+  <div class="col ">
     <div class="row justify-content-center box_Status">
-        <div class="col-md-6 txt_h5" *ngIf="OfertsID.issues;else notisues" >
-            <h2 class="alert">Chiuso</h2>
-           </div>
-           <ng-template #notisues >
-            <img class="img_price" src="../../assets/img/Immagine.png" alt="imagine con lista di prezzi" srcset="">
-              <div class="col-md-6 txt_h5"><h5>Popularita ultima ora: {{OfertsID.average_stay}} </h5></div>
-              <div class="col-md-6 txt_h5"><h5>Persone presente: {{OfertsID.persone_present}} </h5></div>
-              <div class="col-md-6 txt_h5"><h5>Ora di apertura: {{OfertsID.time_open}} </h5></div>
-              <div class="col-md-6 txt_h5"><h5>Ora di Chiusura: {{OfertsID.time_close}} </h5></div>
-              
-           </ng-template>
+      <div class="col-md-6 txt_h5" *ngIf="OfertsID.issues;else notisues">
+        <h2 class="alert">Chiuso</h2>
       </div>
-    </div>
-    <div class="row justify-content-center">
-       
-        <div class="col-md-11 container_border">
-            <h4>Google Map Localita</h4>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.195219607284!2d12.67985737996973!3d45.95115973152332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4779635bb0f58dbf%3A0xe10c09c4f642a4e0!2sVia%20Prasecco%2C%203A%2C%20179682%20Pordenone%20PN!5e0!3m2!1sit!2sit!4v1590141387768!5m2!1sit!2sit"
-            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-            tabindex="0"></iframe>
+      <ng-template #notisues>
+        <img class="img_price" src="../../assets/img/Immagine.png" alt="imagine con lista di prezzi" srcset="">
+        <div class="col-md-6 txt_h5">
+          <h5>Popularita ultima ora: {{OfertsID.average_stay}} </h5>
         </div>
-      </div>
+        <div class="col-md-6 txt_h5">
+          <h5>Persone presente: {{OfertsID.persone_present}} </h5>
+        </div>
+        <div class="col-md-6 txt_h5">
+          <h5>Ora di apertura: {{OfertsID.time_open}} </h5>
+        </div>
+        <div class="col-md-6 txt_h5">
+          <h5>Ora di Chiusura: {{OfertsID.time_close}} </h5>
+        </div>
+
+      </ng-template>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+
+    <div class="col-md-11 container_border">
+      <h4>Google Map Localita</h4>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.195219607284!2d12.67985737996973!3d45.95115973152332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4779635bb0f58dbf%3A0xe10c09c4f642a4e0!2sVia%20Prasecco%2C%203A%2C%20179682%20Pordenone%20PN!5e0!3m2!1sit!2sit!4v1590141387768!5m2!1sit!2sit"
+        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+    </div>
+  </div>
 </div>
