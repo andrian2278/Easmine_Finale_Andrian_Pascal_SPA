@@ -1,4 +1,4 @@
-# SimulazioneFinale
+# Easmine_Finale_Andrian_Pascal_SPA
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
 ## For stat
@@ -10,11 +10,11 @@ https://git-scm.com/
  ##### Method 1
  Downland Zip
 ##### Method 2
- Clone HTTPS: git clone https://github.com/andrian2278/SimulazioneFinale.git
+ Clone HTTPS: https://github.com/andrian2278/Easmine_Finale_Andrian_Pascal_SPA.git
 ##### Method 3
- Clone SSH: git clone git@github.com:andrian2278/SimulazioneFinale.git
+ Clone SSH: git@github.com:andrian2278/Easmine_Finale_Andrian_Pascal_SPA.git
 ##### Method 4
- Clone GitHub CLI: git clone git@github.com:andrian2278/SimulazioneFinale.git
+ Clone GitHub CLI: gh repo clone andrian2278/Easmine_Finale_Andrian_Pascal_SPA
  
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Step 2
