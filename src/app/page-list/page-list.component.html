@@ -18,27 +18,26 @@
               <div class="col-md-6  txt_h5">
                 <h5>Interesse: {{s.interest_type}} </h5>
               </div>
+            </div>
               <div class="row justify-content-center">
                 <div class="col-md-6 txt_h5">
                   <h3>Status </h3>
                 </div>
               </div>
+            <div class="row">
               <div *ngIf="s.issues;else notisues">
                 <h3 class="alert">Chiuso</h3>
               </div>
               <ng-template #notisues>
                 <div class="col-md-6 txt_h5">
                   <h5>Popularita ultima ora: {{s.average_stay}} </h5>
+                  <h5>Ora di apertura: {{s.time_open}} </h5>
                 </div>
                 <div class="col-md-6 txt_h5">
                   <h5>Persone presente: {{s.persone_present}} </h5>
-                </div>
-                <div class="col-md-6  txt_h5">
-                  <h5>Ora di apertura: {{s.time_open}} </h5>
-                </div>
-                <div class="col-md-6  txt_h5">
                   <h5>Ora di Chiusura: {{s.time_close}} </h5>
                 </div>
+               
 
               </ng-template>
 
