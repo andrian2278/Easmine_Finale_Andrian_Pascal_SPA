@@ -12,7 +12,8 @@
       "people_entered":"Media",
       "people_out":"Minimo",
       "average_stay":"Medie",
-      "issues":0
+      "issues":0,
+      "price":12
     },
     {
       "id":2,
@@ -41,7 +42,7 @@
       "people_out":"Minimo",
       "average_stay":"Medie",
       "issues":0
-      
+   
     },
     {
       "id":4,
@@ -72,7 +73,6 @@
       "average_stay":"Medie",
       "issues":1
       
-     
     }
   ]
 }

@@ -1,15 +1,23 @@
 <div *ngIf="OfertsID" class="container-fluid">
+    <div  class="row justify-content-center box-item">
+        <div class="col-md-3"><h1>{{OfertsID.location}}</h1> 
+        </div>
+    </div>
     <div class="col ">
-        <div  class="row justify-content-center box-item"> 
+        <div  class="row justify-content-center box-item">
+            
             <div class="col-md-4">
-            <h3>Localita: {{OfertsID.location}}</h3>
-            <h3>Nome: {{OfertsID.attraction}}</h3>
-            <h3>Tema {{OfertsID.interest_type}}</h3>
+            
+            <h3>Attrazione: {{OfertsID.attraction}}</h3>
+            <h3>Evente {{OfertsID.interest_type}}</h3>
             <p class="txt_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                  when an unknown printer took a galley of type and scrambled it to make a type 
                  specimen
                   book. It has survived not only five centuries, but also the leap into electronic</p>
+
+            
+                
         </div>
            
                 <div class="col-md-5">
@@ -19,13 +27,21 @@
             
         </div>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-md">
-            <h1 class="col-md-5"> hello</h1>
-
-        </div>
-        
+    <div class="col ">
+    <div class="row justify-content-center box_Status">
+        <div class="col-md-6 txt_h5" *ngIf="OfertsID.issues;else notisues" >
+            <h2 class="alert">Chiuso</h2>
+           </div>
+           <ng-template #notisues >
+            <img class="img_price" src="../../assets/img/Immagine.png" alt="imagine con lista di prezzi" srcset="">
+              <div class="col-md-6 txt_h5"><h5>Popularita ultima ora: {{OfertsID.average_stay}} </h5></div>
+              <div class="col-md-6 txt_h5"><h5>Persone presente: {{OfertsID.persone_present}} </h5></div>
+              <div class="col-md-6 txt_h5"><h5>Ora di apertura: {{OfertsID.time_open}} </h5></div>
+              <div class="col-md-6 txt_h5"><h5>Ora di Chiusura: {{OfertsID.time_close}} </h5></div>
+              
+           </ng-template>
       </div>
+    </div>
     <div class="row justify-content-center">
        
         <div class="col-md-11 container_border">

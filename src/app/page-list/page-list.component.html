@@ -18,8 +18,8 @@
             <div class="row justify-content-center">
               <div class="col-md-6 txt_h5"><h3>Status </h3> </div>
             </div>
-            <div *ngIf="s.issues;else notisues" >
-                <h4 class="alert">Chiuso</h4>
+            <div  *ngIf="s.issues;else notisues" >
+                <h3 class="alert">Chiuso</h3>
                </div>
                <ng-template #notisues >
                   <div class="col-md-6 txt_h5"><h5>Popularita ultima ora: {{s.average_stay}} </h5></div>

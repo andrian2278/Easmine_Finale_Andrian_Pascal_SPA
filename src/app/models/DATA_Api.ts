@@ -10,5 +10,6 @@ export class OFFERTS_TURING {
       "people_entered":string;
       "people_out":string;
       "average_stay":string;
-      "issues":Boolean
+      "issues":Boolean;
+      
 }
